@@ -1,0 +1,65 @@
+body{ 
+	background-color:blue;}
+
+
+#container{
+	
+	
+}
+#header{
+	height: 210px;
+	background: purple;
+	border: 1px solid black;
+}
+#footer{
+	height: 100px; 
+	background: #444;
+	color: white;
+}
+#sidebar{
+	width: 240px; 
+	min-height: 400px;
+	float: left; 
+	background: #888; 
+	color: white;
+	height:750px;
+	padding:5px;
+}
+#content{ 
+	margin:auto;
+	background-color:pink;
+	font-family: comic sans;
+	font-size: 18px;
+	height:750px;
+	width: 633px;
+	padding: 5px;
+}
+#wrapper{ 
+	overflow: hidden;
+}
+label{
+	height:20px;
+	width: 15%;
+	margin: 0 auto;
+	padding: 5px;	
+	float:left;	
+	text-align:right;
+	}
+input{
+	width:75%;
+	height:20px;
+	padding:5px;
+}
+input.radio, input.checkbox{
+	width:5%;
+	height: 20px;
+	float: right;
+	
+}
+login.form{}
+
+span.error{
+	font-size: 12px;
+	color: red;
+	display: none;			
+}

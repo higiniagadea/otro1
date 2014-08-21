@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Estructura base</title>
+<script src="jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+	<h1>Curso</h1>
+            
+	<div class="notes">
+		<p class="highlighted">Proin rhoncus tincidunt dolor eu condimentum.</p>
+		<p>Nunc diam ipsum</p>
+		<p>Pharetra vitae odio eget</p>
+		<p>Faucibus blandit mi.</p>
+		<p class="highlighted sign">Aliquam eros nisi</p>
+	</div>
+
+
+	<table>
+	<caption>Datos</caption>
+					
+	<thead>						
+		<tr>
+			<th>Col 1</th>
+			<th>Col 2</th>
+			<th>Col 3</th>
+		</tr>
+	</thead>
+
+<tbody>
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>	
+		</tr>
+		<tr>		
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>	
+		</tr>
+		<tr>									
+			<td>G</td>
+			<td>H</td>	
+			<td>I</td>
+		</tr>
+	</tbody>
+</table>
+
+
+</body>
+
+
+</html>
+
+<script>
+	$(document).ready(function(){
+
+		$("h1").css("color", "red");	
+        
+        $(".notes p:eq(2)").css("color", "red");
+
+        $(".notes p.highlighted").css("color", "blue");
+	
+     $("tr:even").addClass('even');
+		
+     $("tr:odd").addClass('odd');
+
+
+
+	});
+</script>
+
+
+<style type="text/css">
+table tr.odd{
+		background: #ddd;
+	}
+	table tr.even{
+		background: #fff;
+	}
+
+</style>

@@ -1,0 +1,163 @@
+style.css
+
+#body{
+	border-color: #000000;
+	margin:0 auto;
+
+}
+
+#container {
+	background-color: #00FFBF;
+   text-align: center;
+   border: 1px solid #000000;
+   font-size: 15px;
+ width: 0 auto;
+ height: 0 auto;
+	
+   }
+
+#header{
+    border: 1px solid #000000;
+    font-size: 15px;
+	background-color: #A9F5F2;
+	width: 0 auto;
+	margin: 0 auto;
+	text-align: center;	
+	padding: 15px;
+	font-weight: bold;
+	font-style: italic;
+    line-height: 18px;
+ 
+
+
+}
+
+#sidebar{
+		background-color: #FA58F4;
+		width: 300px;
+		height: 300px;
+		text-align: center;		
+		 border: 1px solid #000000;
+         font-size: 15px;
+         /*position: fixed;*/
+	}
+
+
+#content{
+	width: 150px;
+	height: 150px;
+	background-color: yellow;
+	float: left;
+	border: 2px solid #000000;
+
+    
+}
+
+.imagen{
+	background-color:#BE81F7;
+	float:left;
+
+}
+
+ #footer{
+ 	background-color:#ffffff;
+    clear:both;
+    border: 1px solid #000000;
+    top: 1200px;
+    left: 1200px;  	
+   }
+
+  #contenido{
+  	text-align: center;
+  	 border: 1px solid #000000;
+  }
+
+ a{
+   font-size: 26px;
+ }
+
+  a:visited{
+  	color: red;
+  }
+
+  a:link{
+  	color:#00FF00;   
+  }
+
+  a:hover {
+  	color:#FE612E;
+    
+  }
+
+  a:active {
+	color:#BE81F7;
+  }    
+
+  ul {
+  	background-color: red; 
+  }
+   li::first-child { 
+  	content: "es el primer elemento";
+  } 
+  
+ p::after{ content: "."}
+
+
+
+.greenBox{
+			background-color: green;
+			width:150px;
+			height: 150px;
+			border-radius: 3px;
+			top: 80px;
+			left: 80px;
+            z-index: 1; 
+			float: left;
+			text-align: center;
+			font-size: 24px;
+		}
+
+.redBox{
+			background-color: red;
+			width:150px;
+			height: 150px;
+			position: absolute;
+			top: 140px;
+			left: 140px;
+            z-index: 999;
+			float: left;
+		}
+
+
+.verdeBox{
+			background-color:#00FF00;
+			width:150px;
+			height: 150px;
+			position: fixed;
+			top: 100px;
+			left: 200px;
+            z-index: 800; 
+		
+		}
+
+li{
+      background-color:red;
+      width: 50px;
+      height: 50px;
+      border-radius: 2px;
+      float:left;
+}
+
+.boton2{
+      background-color: #348899;
+      width: 50px;
+      height: 50px;
+      border-radius: 2px;
+}
+
+.boton3{
+	background-color: purple;
+	width: 50px;
+      height: 50px;
+      border-radius: 2px;
+}
